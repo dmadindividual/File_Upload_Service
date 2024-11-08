@@ -7,6 +7,6 @@ import java.util.UUID;
 public record FileDto(
         MultipartFile file,
         String entityName,
-        UUID entityId // Added to match the File model
+        UUID entityId 
 ) {
 }
