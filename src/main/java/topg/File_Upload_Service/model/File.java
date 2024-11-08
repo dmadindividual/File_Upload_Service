@@ -22,12 +22,11 @@ public class File {
     @UuidGenerator
     private UUID entityId;
 
-    // Store the file path instead of the MultipartFile itself
     private String filePath;
 
     private String entityName;
-    private String originalFileName; // Optional: store the original file name
+    private String originalFileName; 
 
 
-    // You may want to store more metadata if needed, e.g., file size, content type, etc.
+   
 }
